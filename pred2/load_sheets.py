@@ -6,9 +6,6 @@ def main():
     # List of studies to parse
     studies = os.listdir('..\sources')
 
-    # studies = ['AD1_2008__Ohwaki_BA_1.xlsm', 'AD1_2016__Franca_BACI_1.xlsm']
-
-
     headers = ['site_name', 'start_year', 'start_month', 'start_day', 'end_year', 'end_month', 'end_date',
               'approximate_dates', 'spatial_extent_unit', 'spatial_extent_value', 'pulse_disturbance',
               'pulse_intensity', 'land_use', 'source_habitat_description', 'land_use_intensity',
